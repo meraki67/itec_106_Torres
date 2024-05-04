@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissors - Dave`s Version</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>█ █ █ Rock ∙ Paper ∙ Scissors Game █ █ █</h1>
+        <div class="gamechoices">
+            <button onclick="playGame('Rock')"><img src="rsc/rock.jpg"></button>
+            <button onclick="playGame('Paper')"><img src="rsc/hand.jpg"></button>
+            <button onclick="playGame('Scissors')"><img src="rsc/scissor.jpg"></button>
+        </div>
+
+        <div id="userResult">Player: </div>
+        <div id="botResult">Bot: </div>
+        <div id="result"></div>
+
+        <div class="playerScore">User Score: 
+            <span id="userScoreDisplay">0</span>
+        </div>
+
+        <div class="playerScore">Bot Score: 
+            <span id="botScoreDisplay">0</span>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
